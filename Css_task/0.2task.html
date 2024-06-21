@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>0.2 task</title>
+    <style>
+        html, body {
+            margin: 10;
+            padding: 10;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgb(0, 0, 0);
+        }
+        .container {
+            width: 100vw;
+            height: 100vh;
+            background-color: #d9d9ff;
+            position: relative;
+        }
+        .black-square {
+            width: 15%;
+            height: 30%;
+            background-color: black;
+            position: absolute;
+            top: 35%;
+            left: 42.5%;
+        }
+        .red-rectangle {
+            width: 20%;
+            height: 10%;
+            background-color: red;
+            position: absolute;
+        }
+        .top-red {
+            top: 5%;
+            left: 40%;
+        }
+        .bottom-blue {
+            width: 20%;
+            height: 10%;
+            background-color: gold;
+            position: absolute;
+            bottom: 5%;
+            left: 40%;
+        }
+        .yellow-rectangle {
+            width: 10%;
+            height: 20%;
+            background-color: rgb(118, 118, 0);
+            position: absolute;
+        }
+        .left-yellow {
+            top: 40%;
+            left: 5%;
+        }
+        .right-purple-rectangle {
+            width: 10%;
+            height: 20%;
+            background-color: purple;
+            position: absolute;
+            top: 40%;
+            right: 5%;
+        }
+        .purple-halfcircle {
+            width: 10%;
+            height: 20%;
+            background-color: purple;
+            position: absolute;
+            border-radius: 0 0 50% 50%;
+        }
+        .top-left-purple {
+            width: 10%;
+            height: 20%;
+            background-color: rgb(47, 255, 0);
+            position: absolute;
+            border-radius: 0 0 50% 50%;
+            top: 5%;
+            left: 5%;
+        }
+        .top-right-red {
+            width: 10%;
+            height: 20%;
+            background-color: red;
+            position: absolute;
+            border-radius: 0 0 50% 50%;
+            top: 5%;
+            right: 5%;
+        }
+        .bottom-left-blue {
+            width: 10%;
+            height: 20%;
+            background-color: blue;
+            position: absolute;
+            border-radius: 50% 50% 0 0;
+            bottom: 5%;
+            left: 5%;
+        }
+        .bottom-right-yellow {
+            width: 10%;
+            height: 20%;
+            background-color: rgb(142, 142, 102);
+            position: absolute;
+            border-radius: 50% 50% 0 0;
+            bottom: 5%;
+            right: 5%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="black-square"></div>
+        <div class="red-rectangle top-red"></div>
+        <div class="bottom-blue"></div>
+        <div class="yellow-rectangle left-yellow"></div>
+        <div class="right-purple-rectangle"></div>
+        <div class="top-left-purple"></div>
+        <div class="top-right-red"></div>
+        <div class="bottom-left-blue"></div>
+        <div class="bottom-right-yellow"></div>
+    </div>
+</body>
+</html>
