@@ -1,0 +1,67 @@
+/* styles.css */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: #3498db;
+    animation-name: moveBox;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+}
+
+@keyframes moveBox {
+    0% {
+        transform: translateX(0);
+        background-color: #3498db;
+    }
+    10% {
+        transform: translateX(200px);
+        background-color: #e74c3c;
+    }
+    20% {
+        transform: translateX(0);
+        background-color: #3498db;
+    }
+    30% {
+        transform: translateX(0);
+        background-color: #bccfdb;
+    }
+    40% {
+        transform: translateX(0);
+        background-color: #2f3335;
+    }
+    50% {
+        transform: translateX(0);
+        background-color: #3498db;
+    }
+    60% {
+        transform: translateX(0);
+        background-color: #000000;
+    }
+    70% {
+        transform: translateX(0);
+        background-color: #372f30;
+    }  
+    80% {
+        transform: translateX(0);
+        background-color: #5e5e5e;
+    }  
+    90% {
+        transform: translateX(0);
+        background-color: #949494;
+    }
+    100% {
+        transform: translateX(0);
+        background-color: #050606;
+    }
+}
