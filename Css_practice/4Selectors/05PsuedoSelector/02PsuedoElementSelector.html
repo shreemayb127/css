@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Psuedo Element Selector</title>
+
+    <style>
+      h1::before {
+        content: "~ ";
+      }
+      h1::after{
+        content: " !";
+      }
+      p::first-letter{
+        font-size: 70px;
+        color: blue;
+      }
+      p::first-line{
+        background-color: crimson;
+        color: aliceblue;
+      }
+      p::selection{
+        background-color: teal;
+        color: khaki;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Psuedo Element Selector (::)</h1>
+    <p>
+      <p>According to CERN, which is the European Council for Nuclear Research, atoms were created 13.7 billion years ago in the first few minutes after the Big Bang. The new universe cooled and expanded, creating the conditions for electrons and quarks -- the smaller particles that make up protons and neutrons -- to form. Millionths of a second later, quarks aggregated to form protons and neutrons, which combined to form the nuclei of atoms.</p>
+    </p>
+  </body>
+</html>
