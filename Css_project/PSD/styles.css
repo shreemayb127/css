@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.header, .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 2em;
+    background-color: #000;
+    color: #fff;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+}
+
+.navbar ul li {
+    margin: 0 1em;
+}
+
+.navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.hero {
+    background-image: url(/Css_project/PSD/images/1.png);
+    color: #fff;
+    text-align: center;
+    padding: 300px 90PX;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin: 1em 0;
+}
+
+.cta-button {
+    background-color: #ff6600;
+    border: none;
+    padding: 0.7em 1.5em;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.dance-tour, .pricing, .amazing-dance, .best-dance, .statistics {
+    padding: 2em;
+    text-align: center;
+    background-color: #303030;
+}
+
+.dance-tour h2, .pricing h2, .amazing-dance h2, .best-dance h2, .statistics h2 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+
+.dance-tour p, .pricing p, .amazing-dance p, .best-dance p, .statistics p {
+    font-size: 1em;
+    margin-bottom: 1em;
+}
+
+.tour-locations, .pricing-options {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: #ff6600;
+    padding: 40px 10px;
+}
+.stats {
+    background-color: #303030;
+    display: flex;
+}
+
+.location, .pricing-option, .stat {
+    flex-basis: 30%;
+    margin: 1em 0;
+    
+}
+
+.location img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 0.5em;
+}
+
+.location h3, .pricing-option h3, .stat h3 {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+.amazing-dance, .best-dance {
+    background-color: #ff6600;
+    color: #fff;
+
+}
+
+.amazing-dance h2, .best-dance h2 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+
+.amazing-dance p, .best-dance p {
+    font-size: 1em;
+    margin-bottom: 1em;
+}
+.herbert-simon {
+    background: url('/Css_project/PSD/images/4.png') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 200px 80PX;
+}
+
+.herbert-simon h2 {
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+.herbert-simon p,{
+    font-size: 50px;
+    margin-bottom: 50px;
+    display: flex;
+}
+
+.subscribe {
+    background-color: #ff6600;
+    color: #fff;
+    
+}
+.footer-content {
+    font-size: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    background-color: #303030;
+}
