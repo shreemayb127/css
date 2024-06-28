@@ -29,6 +29,7 @@ body {
 .navbar ul li a {
     color: #fff;
     text-decoration: none;
+    background-image: url(/Css_project/PSD/images/Shape.png);
 }
 
 .hero {
@@ -60,11 +61,21 @@ body {
     padding: 2em;
     text-align: center;
     background-color: #303030;
+    background-image: url(/Css_project/PSD/images/Shape.png);
 }
 
 .dance-tour h2, .pricing h2, .amazing-dance h2, .best-dance h2, .statistics h2 {
     font-size: 2em;
     margin-bottom: 0.5em;
+}
+
+.amazing-dance {
+    display: flex;
+    justify-content: space-between;
+}
+.best-dance {
+    display: flex;
+     justify-content: space-between;
 }
 
 .dance-tour p, .pricing p, .amazing-dance p, .best-dance p, .statistics p {
@@ -95,17 +106,19 @@ body {
     height: auto;
     border-radius: 5px;
     margin-bottom: 0.5em;
+    background-image: url(/Css_project/PSD/images/Shape.png);
 }
 
 .location h3, .pricing-option h3, .stat h3 {
     font-size: 1.5em;
     margin-bottom: 0.5em;
+    background-image: url(/Css_project/PSD/images/Shape.png);
 }
 
 .amazing-dance, .best-dance {
     background-color: #ff6600;
     color: #fff;
-
+background-image: url(/Css_project/PSD/images/Shape.png);
 }
 
 .amazing-dance h2, .best-dance h2 {
@@ -138,11 +151,14 @@ body {
 .subscribe {
     background-color: #ff6600;
     color: #fff;
+    background-image: url(/Css_project/PSD/images/Shape.png);
     
 }
 .footer-content {
-    font-size: 50px;
+    background-image: url(/Css_project/PSD/images/Shape.png);
+    font-size: 10px;
     margin-bottom: 50px;
     display: flex;
+    justify-content: space-between;
     background-color: #303030;
 }
