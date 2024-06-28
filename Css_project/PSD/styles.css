@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: Arial, serif;
 }
 
 .header, .navbar {
@@ -23,7 +23,7 @@ body {
 }
 
 .navbar ul li {
-    margin: 0 1em;
+    margin: 0 4em;
 }
 
 .navbar ul li a {
@@ -34,9 +34,10 @@ body {
 
 .hero {
     background-image: url(/Css_project/PSD/images/1.png);
-    color: #fff;
-    text-align: center;
-    padding: 300px 90PX;
+    color: #ffffff;
+    text-align: justify;
+    padding: 302px 90PX;
+    background-repeat: no-repeat;
 }
 
 .hero h1 {
@@ -46,6 +47,7 @@ body {
 .hero p {
     font-size: 1.2em;
     margin: 1em 0;
+    width: 50%;
 }
 
 .cta-button {
@@ -62,6 +64,7 @@ body {
     text-align: center;
     background-color: #303030;
     background-image: url(/Css_project/PSD/images/Shape.png);
+    color: #fff;
 }
 
 .dance-tour h2, .pricing h2, .amazing-dance h2, .best-dance h2, .statistics h2 {
@@ -142,11 +145,11 @@ background-image: url(/Css_project/PSD/images/Shape.png);
     margin-bottom: 1em;
 }
 
-.herbert-simon p,{
-    font-size: 50px;
-    margin-bottom: 50px;
-    display: flex;
-}
+.herbert-simon p, {
+    font-size : 50px ;
+    margin-bottom : 50px ;
+    display: flex ;
+ }
 
 .subscribe {
     background-color: #ff6600;
@@ -157,7 +160,6 @@ background-image: url(/Css_project/PSD/images/Shape.png);
 .footer-content {
     background-image: url(/Css_project/PSD/images/Shape.png);
     font-size: 10px;
-    margin-bottom: 50px;
     display: flex;
     justify-content: space-between;
     background-color: #303030;
