@@ -1,0 +1,475 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header {
+    background-color: black;
+    padding: 20px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+}
+
+.row a {
+    text-decoration: none;
+    color: aliceblue;
+    text-align: justify;
+}
+
+.icon {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.gap {
+    padding-right: 100px;
+}
+
+section {
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+}
+
+.lrow {
+    display: flex;
+    text-decoration: none;
+    color: black;
+    text-align: justify;
+    gap: 30px;
+}
+
+.lrow a {
+    color: black;
+}
+
+.slide {
+    margin: 0;
+}
+
+.banner {
+    background-image: url('../sabarmatiriverfront/Media/banner1.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    text-align: bottom;
+}
+
+.banner h1+p {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+}
+
+.banner p {
+    font-size: 1.5em;
+}
+
+.objectives {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.objective-row {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.objective {
+    width: 30%;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin: 20px;
+    text-align: center;
+}
+
+.objective img {
+    width: 100px;
+    height: 100px;
+}
+
+.objective h3 {
+    margin: 20px 0;
+}
+
+.objective p {
+    font-size: 1em;
+    margin: 10px 0 20px;
+}
+
+.objective button {
+    background-color: #00bfff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.objective button:hover {
+    background-color: #008cba;
+}
+.objectives {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.objective-row {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.objective {
+    width: 30%;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin: 20px;
+    text-align: center;
+}
+
+.objective img {
+    width: 100px;
+    height: 100px;
+}
+
+.objective h3 {
+    margin: 20px 0;
+}
+
+.objective p {
+    font-size: 1em;
+    margin: 10px 0 20px;
+}
+
+.objective button {
+    background-color: #00bfff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.objective button:hover {
+    background-color: #008cba;
+}
+
+.about-us {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 20px;
+}
+
+.about-content {
+    width: 60%;
+}
+
+.about-content h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.about-content p {
+    margin-bottom: 20px;
+    font-size: 1.2em;
+    line-height: 1.6em;
+}
+
+.about-content button {
+    background-color: #00bfff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.about-content button:hover {
+    background-color: #008cba;
+}
+
+.about-video {
+    width: 35%;
+}
+
+.about-video img {
+    width: 100%;
+    border-radius: 10px;
+}
+.nurturing-environment {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 20px;
+}
+
+.nurturing-content {
+    width: 40%;
+}
+
+.nurturing-content img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.nurturing-text {
+    width: 55%;
+}
+.nurturing-text h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.nurturing-text p {
+    font-size: 1.2em;
+    line-height: 1.6em;
+}
+.paradise-for-birds {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 20px;
+}
+
+.birds-text h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.birds-text p {
+    font-size: 1.2em;
+    line-height: 1.6em;
+}
+
+.birds-image img {
+    width: 500px;
+    height: auto;
+}
+.phase-ii {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 20px;
+}
+
+.phase-ii-image img {
+    width: 500px;
+    height: auto;
+}
+
+.phase-ii-text h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.phase-ii-text p {
+    font-size: 1.2em;
+    line-height: 1.6em;
+    margin-bottom: 20px;
+}
+
+.read-more-btn {
+    background-color: #00bfff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.read-more-btn:hover {
+    background-color: #597eb2;
+}
+.col-33{
+    width: 30%;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin: 20px;
+    text-align: center;
+}
+.places-to-visit {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.places-to-visit h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.places-to-visit p {
+    font-size: 1.2em;
+    line-height: 1.6em;
+    margin-bottom: 20px;
+}
+
+.places-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.place {
+    width: 30%;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin: 20px;
+    text-align: center;
+}
+
+.place img {
+    width: 100px;
+    height: 100px;
+}
+
+.place h3 {
+    margin: 20px 0;
+    font-size: 1.5em;
+}
+.places-to-visit button{
+    background-color: #00bfff;
+    cursor: pointer;
+    border-radius: 5%;
+    border: none;
+}
+.upcoming-attraction {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.upcoming-attraction h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.upcoming-attraction .attraction-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.upcoming-attraction img {
+    width: 300px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.upcoming-attraction button {
+    background-color: #00bfff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2em;
+}
+
+.upcoming-attraction button:hover {
+    background-color: #008cba;
+
+}
+.updates-gallery {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.updates-gallery-item {
+    position: relative;
+    width: 300px;
+    margin: 20px;
+}
+
+.updates-gallery-item img {
+    width: 100%;
+    height: auto;
+}
+
+.updates-gallery-item button {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    border: #00bfff;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2em;
+}
+
+.updates-gallery-item button:hover {
+    background-color: #008cba;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 50px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.footer-section {
+    width: 300px;
+    margin: 20px;
+}
+
+.footer-section h3 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #00bfff;
+    padding-bottom: 10px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+    color: #00bfff;
+    text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer-section p {
+    margin-bottom: 10px;
+}
+
+.footer-section a {
+    color: #00bfff;
+    text-decoration: none;
+}
+
+.footer-section a:hover {
+    text-decoration: underline;
+}
+
