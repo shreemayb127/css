@@ -2,7 +2,7 @@
     margin: 0 auto;
     padding: 0;
     box-sizing: border-box;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Montserrat';
 }
 
 header {
@@ -160,7 +160,7 @@ section {
     color: white;
     border: none;
     padding: 10px 20px;
-    border-radius: 5px;
+    border-radius: 20px;
     cursor: pointer;
 }
 
@@ -195,7 +195,7 @@ section {
     color: white;
     border: none;
     padding: 10px 20px;
-    border-radius: 5px;
+    border-radius: 20px;
     cursor: pointer;
 }
 
@@ -209,7 +209,7 @@ section {
 
 .about-video img {
     width: 100%;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 .nurturing-environment {
     display: flex;
@@ -224,7 +224,7 @@ section {
 
 .nurturing-content img {
     width: 100%;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 
 .nurturing-text {
@@ -288,20 +288,12 @@ section {
     color: white;
     border: none;
     padding: 10px 20px;
-    border-radius: 5px;
+    border-radius: 20px;
     cursor: pointer;
 }
 
 .read-more-btn:hover {
     background-color: #597eb2;
-}
-.col-33{
-    width: 30%;
-    padding: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
-    margin: 20px;
-    text-align: center;
 }
 .places-to-visit {
     padding: 50px 20px;
@@ -329,7 +321,7 @@ section {
     width: 30%;
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
+    border-radius: 20px;
     margin: 20px;
     text-align: center;
 }
@@ -348,6 +340,7 @@ section {
     cursor: pointer;
     border-radius: 5%;
     border: none;
+    width: 300px;
 }
 .upcoming-attraction {
     text-align: center;
@@ -376,7 +369,7 @@ section {
     color: white;
     border: none;
     padding: 10px 20px;
-    border-radius: 5px;
+    border-radius: 20px;
     cursor: pointer;
     font-size: 1.2em;
 }
@@ -413,7 +406,7 @@ section {
     color: rgb(0, 0, 0);
     border: none;
     padding: 10px 20px;
-    border-radius: 5px;
+    border-radius: 20px;
     cursor: pointer;
     font-size: 1.2em;
 }
