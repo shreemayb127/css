@@ -415,7 +415,7 @@ section {
     background-color: #008cba;
 }
 footer {
-    background-color: #333;
+    background-image: url(../sabarmatiriverfront/Media/footer-bg1.png);
     color: #fff;
     padding: 50px 20px;
     display: flex;

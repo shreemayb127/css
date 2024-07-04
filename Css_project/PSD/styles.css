@@ -66,7 +66,15 @@ body {
     background-image: url(/Css_project/PSD/images/Shape.png);
     color: #fff;
 }
-
+.dance-tour button{
+    background-color:#ff6600;
+      border-radius: 5px; 
+      border: 0px;
+}
+.dance-tour button :hover{
+    background-color:#4b4b4b;
+      border-radius: 5px; 
+}
 .dance-tour h2, .pricing h2, .amazing-dance h2, .best-dance h2, .statistics h2 {
     font-size: 2em;
     margin-bottom: 0.5em;
@@ -154,7 +162,8 @@ background-image: url(/Css_project/PSD/images/Shape.png);
 .subscribe {
     background-color: #ff6600;
     color: #fff;
-    background-image: url(/Css_project/PSD/images/Shape.png);
+  height: 100%;
+  background-image: url(../PSD/images/Shape.png);
     
 }
 .footer-content {
