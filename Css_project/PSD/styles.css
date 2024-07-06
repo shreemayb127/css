@@ -36,8 +36,8 @@ body {
     background-image: url(/Css_project/PSD/images/1.png);
     color: #ffffff;
     text-align: justify;
-    padding: 302px 90PX;
-    background-repeat: no-repeat;
+    padding: 302px 30PX;
+    background-repeat:repeat;
 }
 
 .hero h1 {
@@ -80,14 +80,25 @@ body {
     margin-bottom: 0.5em;
 }
 
-.amazing-dance {
+/* .amazing-dance {
     display: flex;
-    justify-content: space-between;
+    justify-content:space-evenly;
+    
+
+    
 }
 .best-dance {
     display: flex;
-     justify-content: space-between;
+    justify-content:space-evenly;
+} */
+.row{
+    display: flex;
+    justify-content: space-between;
+    background-color:#ff6600;
 }
+ .col50{
+    width: 50%;
+ }
 
 .dance-tour p, .pricing p, .amazing-dance p, .best-dance p, .statistics p {
     font-size: 1em;
@@ -162,13 +173,14 @@ background-image: url(/Css_project/PSD/images/Shape.png);
 .subscribe {
     background-color: #ff6600;
     color: #fff;
-  height: 100%;
-  background-image: url(../PSD/images/Shape.png);
+    height: 400px;
+      background-image: url(../PSD/images/Shape.png);
     
 }
 .footer-content {
-    background-image: url(/Css_project/PSD/images/Shape.png);
-    font-size: 10px;
+    background-image: url(../Css_project/PSD/images/Shape.png);
+    font-size: 20px;
+    height: 200px;
     display: flex;
     justify-content: space-between;
     background-color: #303030;
