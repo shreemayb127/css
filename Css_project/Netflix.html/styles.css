@@ -10,11 +10,12 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background-color: transparent;
+    
 }
 
 .logo {
     font-size: 1.5em;
+    color: red;
     font-weight: bold;
 }
 
