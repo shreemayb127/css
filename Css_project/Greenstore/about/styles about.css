@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+header {
+    background: #fff;
+    padding: 20px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.cart-profile {
+    display: flex;
+    align-items: center;
+}
+
+.cart {
+    margin-right: 20px;
+}
+
+.profile img {
+    width: 24px;
+    height: 24px;
+}
+
+main {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.about, .our-story {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.about h1, .our-story h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.about h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.about p, .our-story p {
+    margin-bottom: 20px;
+}
+
+.video-container {
+    position: relative;
+    display: inline-block;
+}
+
+.video-container img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.video-play-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60px;
+    height: 60px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video-play-button::before {
+    content: '';
+    width: 0;
+    height: 0;
+    border-left: 20px solid #fff;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+}
+
+.our-story {
+    margin-top: 60px;
+}
+
+.story-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.text-content {
+    flex: 1;
+}
+
+.blockquote {
+    border-left: 5px solid #ccc;
+    padding-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-style: italic;
+}
+
+.blockquote cite {
+    display: block;
+    margin-top: 10px;
+    font-size: 14px;
+    font-style: normal;
+}
+
+.image-content {
+    display: flex;
+    gap: 10px;
+}
+
+.image-content img {
+    width: 100%;
+    max-width: 200px;
+    border-radius: 10px;
+}

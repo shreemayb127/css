@@ -1,0 +1,348 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+.header {   
+    background-image: url('../Greenstore/imags/hero-section-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    padding: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+
+.header h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+.header p {
+    font-size: 1.5em;
+}
+
+.header .shop-now {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    font-size: 1.2em;
+    border-radius: 5px;
+}
+.navbar {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    box-sizing: border-box;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    margin: 0 15px;
+}
+
+.navbar .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.navbar .cart {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.navbar .cart::before {
+    content: '0';
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.new-plants {
+    text-align: center;
+    margin: 20px;
+}
+
+.new-plants h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.plants-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.plant {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+    width: 200px;
+    transition: transform 0.3s ease;
+}
+
+.plant img {
+    width: 100%;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 15px;
+}
+
+.plant h2 {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.plant p {
+    margin: 5px 0;
+}
+
+.plant .price {
+    color: #228B22;
+    font-weight: bold;
+}
+
+/* .plant:hover {
+    transform: rotateX(360deg);
+} */
+
+.shop-now {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #228B22;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.shop-now:hover {
+    background-color: #176b12;
+}
+.story-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    background-color: #f9f9f9;
+}
+
+.image-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.text-container {
+    flex: 1;
+    padding: 20px;
+}
+
+.text-container h2 {
+    font-size: 16px;
+    color: #888;
+    margin-bottom: 10px;
+}
+
+.text-container h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.text-container p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.text-container button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.text-container button:hover {
+    background-color: #45a049;
+}
+.testimonials {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #ffffff;
+}
+
+.testimonials h2 {
+    margin-bottom: 30px;
+    font-size: 2em;
+    color: #333;
+}
+
+.testimonial {
+    display: inline-block;
+    width: 30%;
+    margin: 0 1.5%;
+    vertical-align: top;
+    text-align: center;
+}
+
+.testimonial p {
+    font-size: 1em;
+    line-height: 1.5;
+    color: #666;
+}
+
+.testimonial img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 20px 0;
+}
+
+.testimonial h4 {
+    margin: 10px 0 0;
+    font-size: 1em;
+    color: #333;
+}
+.gift-card-section {
+    background: url('../Greenstore/imags/download.jpg') no-repeat center center/cover;
+    height: 80vh;
+    position: relative;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.overlay {
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gift-card-content {
+    max-width: 800px;
+}
+
+.gift-card-content h2 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.gift-card-content p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.gift-card-content button {
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.gift-card-content button:hover {
+    background-color: #f0f0f0;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #f8f8f8;
+}
+
+.feature {
+    text-align: center;
+    max-width: 300px;
+}
+
+.feature h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.feature p {
+    font-size: 1em;
+    color: #777;
+}
+.footer {
+    background-color: rgb(129, 129, 43);
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+.footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+.footer a:hover {
+    text-decoration: underline;
+}
+.footer form {
+    margin: 20px 0;
+}
+.footer input[type="email"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.footer input[type="submit"] {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: darkolivegreen;
+    color: white;
+    cursor: pointer;
+}
+.footer input[type="submit"]:hover {
+    background-color: olive;
+}
+.footer p {
+    margin: 10px 0;
+}
