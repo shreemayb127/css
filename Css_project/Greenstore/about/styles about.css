@@ -81,39 +81,6 @@ main {
     margin-bottom: 20px;
 }
 
-.video-container {
-    position: relative;
-    display: inline-block;
-}
-
-.video-container img {
-    width: 100%;
-    border-radius: 10px;
-}
-
-.video-play-button {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 60px;
-    height: 60px;
-    background: rgba(0, 0, 0, 0.5);
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.video-play-button::before {
-    content: '';
-    width: 0;
-    height: 0;
-    border-left: 20px solid #fff;
-    border-top: 10px solid transparent;
-    border-bottom: 10px solid transparent;
-}
-
 .our-story {
     margin-top: 60px;
 }
@@ -150,7 +117,45 @@ main {
 }
 
 .image-content img {
+    margin: 0 auto;
     width: 100%;
     max-width: 200px;
     border-radius: 10px;
+}
+.footer {
+    background-color: rgb(129, 129, 43);
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+.footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+.footer a:hover {
+    text-decoration: underline;
+}
+.footer form {
+    margin: 20px 0;
+}
+.footer input[type="email"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.footer input[type="submit"] {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: darkolivegreen;
+    color: white;
+    cursor: pointer;
+}
+.footer input[type="submit"]:hover {
+    background-color: olive;
+}
+.footer p {
+    margin: 10px 0;
 }

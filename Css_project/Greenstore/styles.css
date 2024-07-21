@@ -6,7 +6,7 @@ body {
 }
 
 .header {   
-    background-image: url('../Greenstore/imags/hero-section-bg.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../Greenstore/imags/hero-section-bg.jpg');
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -19,6 +19,7 @@ body {
     text-align: center;
     position: relative;
 }
+
 
 .header h1 {
     font-size: 3em;
