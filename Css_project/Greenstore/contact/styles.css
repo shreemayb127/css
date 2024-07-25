@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -160,4 +161,168 @@ body {
 }
 .footer p {
     margin: 10px 0;
+=======
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    box-sizing: border-box;
+}
+
+.navbar a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 1.2em;
+    margin: 0 15px;
+}
+
+.navbar .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.navbar .cart {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.navbar .cart::before {
+    content: '0';
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.contact-info, .contact-form {
+    width: 45%;
+}
+
+.contact-info h2, .contact-form h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.contact-info p, .contact-info ul {
+    line-height: 1.6;
+}
+
+.contact-info ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-info ul li {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.contact-info ul li i {
+    margin-right: 10px;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form label {
+    margin-bottom: 5px;
+}
+
+.contact-form input, .contact-form textarea {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.contact-form button {
+    padding: 10px;
+    border: none;
+    background-color: green;
+    color: white;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: darkgreen;
+}
+
+.follow-us {
+    margin-top: 20px;
+}
+
+.follow-us h3 {
+    margin-bottom: 10px;
+}
+
+.follow-us a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: inherit;
+}
+.footer {
+    background-color: rgb(129, 129, 43);
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+.footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+.footer a:hover {
+    text-decoration: underline;
+}
+.footer form {
+    margin: 20px 0;
+}
+.footer input[type="email"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.footer input[type="submit"] {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: darkolivegreen;
+    color: white;
+    cursor: pointer;
+}
+.footer input[type="submit"]:hover {
+    background-color: olive;
+}
+.footer p {
+    margin: 10px 0;
+>>>>>>> be5fe3ba6bd61937ef1017eaf7530c8c862c2b87
 }

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
     margin: 0;
     padding: 0;
@@ -159,3 +160,166 @@ main {
 .footer p {
     margin: 10px 0;
 }
+=======
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+header {
+    background: #fff;
+    padding: 20px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.cart-profile {
+    display: flex;
+    align-items: center;
+}
+
+.cart {
+    margin-right: 20px;
+}
+
+.profile img {
+    width: 24px;
+    height: 24px;
+}
+
+main {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.about, .our-story {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.about h1, .our-story h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.about h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.about p, .our-story p {
+    margin-bottom: 20px;
+}
+
+.our-story {
+    margin-top: 60px;
+}
+
+.story-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.text-content {
+    flex: 1;
+}
+
+.blockquote {
+    border-left: 5px solid #ccc;
+    padding-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-style: italic;
+}
+
+.blockquote cite {
+    display: block;
+    margin-top: 10px;
+    font-size: 14px;
+    font-style: normal;
+}
+
+.image-content {
+    display: flex;
+    gap: 10px;
+}
+
+.image-content img {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 200px;
+    border-radius: 10px;
+}
+.footer {
+    background-color: rgb(129, 129, 43);
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+.footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+.footer a:hover {
+    text-decoration: underline;
+}
+.footer form {
+    margin: 20px 0;
+}
+.footer input[type="email"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.footer input[type="submit"] {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: darkolivegreen;
+    color: white;
+    cursor: pointer;
+}
+.footer input[type="submit"]:hover {
+    background-color: olive;
+}
+.footer p {
+    margin: 10px 0;
+}
+>>>>>>> be5fe3ba6bd61937ef1017eaf7530c8c862c2b87
