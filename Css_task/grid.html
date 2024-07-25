@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      .container {
+        height: 100vh;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+      }
+      .one {
+        border: 2px solid black;
+      }
+      #one1 {
+        grid-column: span 3;
+        background: url("../images/Z1.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      #one2 {
+        background: url("../images/Z2.jpeg");
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      #one3 {
+        background: url("../images/Z3.jpeg");
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      #one4 {
+        background: url("../images/Z5.png");
+        grid-column: span 2;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      #one5 {
+        background: url("../images/Z6.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      #one6 {
+        background: url("../images/Z7.png");
+        grid-column: span 2;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      #one7 {
+        background: url("../images/Z3.jpeg");
+        grid-column: span 2;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      /* Media Queries */
+      @media (max-width: 1200px) {
+        .container {
+          grid-template-columns: repeat(3, 1fr);
+        }
+        #one1 {
+          grid-column: span 1;
+        }
+        #one4, #one6, #one7 {
+          grid-column: span 1;
+        }
+      }
+
+      @media (max-width: 800px) {
+        .container {
+          grid-template-columns: repeat(2, 1fr);
+        }
+        #one1 {
+          grid-column: span 1;
+        }
+        #one4, #one6, #one7 {
+          grid-column: span 1;
+        }
+      }
+
+      @media (max-width: 500px) {
+        .container {
+          grid-template-columns: 1fr;
+        }
+        #one1, #one4, #one6, #one7 {
+          grid-column: span 1;
+        }
+      }
+     
+    </style>
+      </head>
+      <body>
+        <div class="container">
+          <div class="one" id="one1">1</div>
+          <div class="one" id="one2">2</div>
+          <div class="one" id="one3">3</div>
+          <div class="one" id="one4">4</div>
+          <div class="one" id="one5">5</div>
+          <div class="one" id="one6">6</div>
+          <div class="one" id="one7">7</div>
+          <!-- <div class="one" id="one8">8</div> -->
+          <!-- <div class="one" id="one9">9</div>
+            <div class="one" id="one10">10</div>
+            <div class="one" id="one11">11</div> -->
+          <!-- <div class="one" id="one12">12</div> -->
+          <!-- <div class="one" id="one13">13</div> -->
+          <!-- <div class="one" id="one14">14</div> -->
+          <!-- <div class="one" id="one15">15</div>
+            <div class="one" id="one16">16</div> -->
+        </div>
+      </body>
+    </html> 
